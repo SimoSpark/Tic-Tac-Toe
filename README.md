@@ -6,7 +6,6 @@ Welcome to the **Tic Tac Toe** game! This classic game of strategy and fun is no
 - **Play against yourself**: Challenge your own skills!
 - **Winning Display**: Get a cheerful message when you win! 🏆
 - **Draw Message**: If it's a draw, you'll see a friendly reminder that "It's a tie!" 😅
-- **Responsive Design**: The game is centered on the screen and looks great on all devices!
 - **Easy Restart**: Click anywhere to restart the game after a win or a draw. 🔄
 
 
