@@ -20,7 +20,7 @@ Welcome to the **Tic Tac Toe** game! This classic game of strategy and fun is no
 ## 💻 Technologies Used
 - HTML
 - CSS
-- JavaScript (React)
+- JavaScript 
 
 
 
