@@ -5,10 +5,6 @@ Welcome to the **Tic Tac Toe** game! This classic game of strategy and fun is no
 ## 🚀 Features
 - **Play against yourself**: Challenge your own skills!
 - **Winning Display**: Get a cheerful message when you win! 🏆
-- **Draw Message**: If it's a draw, you'll see a friendly reminder that "It's a tie!" 😅
-- **Easy Restart**: Click anywhere to restart the game after a win or a draw. 🔄
-
-
 
 ## 📖 How to Play
 1. Players take turns clicking on the squares to place their symbols (X or O).
@@ -20,7 +16,7 @@ Welcome to the **Tic Tac Toe** game! This classic game of strategy and fun is no
 ## 💻 Technologies Used
 - HTML
 - CSS
-- JavaScript 
+- JavaScript (React)
 
 
 
