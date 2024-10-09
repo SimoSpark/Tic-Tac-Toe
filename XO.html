@@ -3,7 +3,7 @@
   <head>
     <title>Tic-Tac-Toe Game</title>
     <style>
-      /* General styling */
+    
       body, html {
         height: 100%;
         margin: 0;
@@ -13,18 +13,16 @@
         background-color: #66818d; 
       }
 
-      /* styling the game */
       .game {
         display: flex;
         flex-direction: row;
-        background-color: #ffffff; /* White background for the game board */
+        background-color: #ffffff; 
         border-radius: 8px;
         padding: 60px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-      }
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 
       .square {
-        background: #cbf7ff; /* Light blue background */
+        background: #cbf7ff; 
         border: 2px solid #999;
         float: left;
         font-size: 30px;
@@ -62,12 +60,12 @@
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+        background-color: rgba(0, 0, 0, 0.8); 
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 1000;
-        cursor: pointer; /* Cursor changes to indicate clickable */
+        cursor: pointer; 
       }
 
       .message {
@@ -75,7 +73,7 @@
         color: #fff;
         text-align: center;
         padding: 20px;
-        background-color: rgba(49, 41, 41, 0.1); /* Slightly transparent background */
+        background-color: rgba(49, 41, 41, 0.1); 
         border-radius: 10px;
       }
     </style>
@@ -107,7 +105,7 @@
 
       function Board({ xIsNext, squares, onPlay, onGameReset }) {
         const winner = calculateWinner(squares);
-        const isDraw = squares.every(Boolean) && !winner; // Check if all squares are filled and no winner
+        const isDraw = squares.every(Boolean) && !winner; 
 
         function handleClick(i) {
           if (winner || squares[i]) {
